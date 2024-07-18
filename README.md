@@ -36,7 +36,7 @@ The architecture involves:
 2. **S3 Bucket Creation**:
     - Set up an S3 bucket for storing streaming data.
       
-![Bucket](screenshots_of_created_services/s3bucket.png)
+![Bucket](screenshots_of_created_services/s3_bucket.png)
 
 3. **Lambda Function**:
     - Developed a Lambda function to transform incoming data for storage.
