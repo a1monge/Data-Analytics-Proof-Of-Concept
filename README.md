@@ -31,6 +31,8 @@ The architecture involves:
 1. **IAM Setup**:
     - Created custom IAM policies and roles for secure access to AWS services.
 
+
+
 2. **S3 Bucket Creation**:
     - Set up an S3 bucket for storing streaming data.
       
@@ -54,6 +56,8 @@ The architecture involves:
 6. **Athena Table Creation**:
     - Established an Athena table to query and view ingested data.
 
+
+    
 7. **QuickSight Dashboards**:
     - Created QuickSight dashboards to visualize and analyze the data.
 
@@ -68,7 +72,7 @@ The architecture involves:
 5. **Querying**: Amazon Athena enables querying of stored data.
 6. **Visualization**: Amazon QuickSight visualizes the data for insights.
 
-![Bucket](Screenshots_of_created_services/s3+bucket.png)
+
 
 ## Key Takeaways
 
@@ -77,6 +81,8 @@ The architecture involves:
 - **Real-time Data Ingestion**: Achieved with Kinesis Data Firehose and API Gateway.
 - **Data Storage and Querying**: Efficient data storage in S3 and querying with Athena.
 - **Data Visualization**: Interactive dashboards created with QuickSight for insights.
+
+
 
 ## Cleanup
 
