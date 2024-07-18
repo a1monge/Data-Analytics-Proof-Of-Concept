@@ -34,22 +34,22 @@ The architecture involves:
 2. **S3 Bucket Creation**:
     - Set up an S3 bucket for storing streaming data.
       
-![Bucket](Screenshots_of_created_services/s3+bucket.png)
+![Bucket](screenshots_of_created_services/s3+bucket.png)
 
 3. **Lambda Function**:
     - Developed a Lambda function to transform incoming data for storage.
 
-![Bucket](Screenshots_of_created_services/lambda_function_transform-data.png)
+![Bucket](screenshots_of_created_services/lambda_function_transform-data.png)
 
 4. **Kinesis Data Firehose**:
     - Created a Firehose delivery stream for real-time data delivery to S3.
 
-![Bucket](Screenshots_of_created_services/firehouse_stream.png)
+![Bucket](screenshots_of_created_services/firehouse_stream.png)
 
 5. **API Gateway Setup**:
     - Configured a REST API for data ingestion using API Gateway.
 
-![Bucket](Screenshots_of_created_services/APIGatewayFirehose.png)
+![Bucket](screenshots_of_created_services/APIGatewayFirehose.png)
 
 6. **Athena Table Creation**:
     - Established an Athena table to query and view ingested data.
@@ -57,7 +57,7 @@ The architecture involves:
 7. **QuickSight Dashboards**:
     - Created QuickSight dashboards to visualize and analyze the data.
 
-![Bucket](Screenshots_of_created_services/data_analysis_quicksight.png)
+![Bucket](screenshots_of_created_services/data_analysis_quicksight.png)
 
 ## Data Flow
 
